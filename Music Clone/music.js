@@ -9,13 +9,13 @@ let masterSongName =document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Perfect", filePath: "Song/1.mp3", coverPath: "/musicimage/1.jpg"},
-    {songName: "All of Me", filePath: "Song/2.mp3", coverPath: "/musicimage/2.jpg"},
-    {songName: "Closer", filePath: "Song/3.mp3", coverPath: "/musicimage/3.png"},
-    {songName: "If the World Was Ending ", filePath: "Song/4.mp3", coverPath: "/musicimage/4.jpg"},
-    {songName: "Say You Won't Let Go", filePath: "Song/5.mp3", coverPath: "/musicimage/5.jpg"},
-    {songName: "Somebody's Me", filePath: "Song/6.mp3", coverPath: "/musicimage/6.jfif"},
-    {songName: "Wake Me Up When September Ends", filePath: "Song/7.mp3", coverPath: "/musicimage/7.jfif"},
+    {songName: "Perfect", filePath: "Song/1.mp3", coverPath: "./musicimage/1.jpg"},
+    {songName: "All of Me", filePath: "Song/2.mp3", coverPath: "./musicimage/2.jpg"},
+    {songName: "Closer", filePath: "Song/3.mp3", coverPath: "./musicimage/3.png"},
+    {songName: "If the World Was Ending ", filePath: "Song/4.mp3", coverPath: "./musicimage/4.jpg"},
+    {songName: "Say You Won't Let Go", filePath: "Song/5.mp3", coverPath: "./musicimage/5.jpg"},
+    {songName: "Somebody's Me", filePath: "Song/6.mp3", coverPath: "./musicimage/6.jfif"},
+    {songName: "Wake Me Up When September Ends", filePath: "Song/7.mp3", coverPath: "./musicimage/7.jfif"},
 
 ]
 songItems.forEach((element,i)=>{
